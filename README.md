@@ -1,5 +1,5 @@
 # Welcome to Mystery Gift
-This is a Secret Santa style generator.
+A Secret Santa-Style Generator
 
 ### This project is currently in progress
 
