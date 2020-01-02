@@ -2,12 +2,16 @@
 <html>
   <head>
     <title>Mystery Gift - A Secret Santa-Style Generator</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
     <script>
       $().ready(function() {
-   $("#hello").html("Hello world.");
-});
+      });
     </script>
+    
   </head>
   <body>
     <h1>Welcome to MysteryGift!</h1>
@@ -17,7 +21,13 @@
       <li>Send a link to everyone containing their randomly drawn person!</li>
       <li>The randomly drawn list is kept secret! Nobody will know who everyone has got!</li>
     </ul>
-    <div id="hello">
+    <div id="tab-options">
+      <button class="tab-options-button">Create Group</button>
+      <button class="tab-options-button">Manage Group</button>
+    </div>
+    <div id="create-group" class="tab-content">
+    </div>
+    <div id="manage-group" class="tab-content">
     </div>
   </body>
 </html>
