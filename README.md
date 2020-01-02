@@ -1,8 +1,9 @@
-# mysterygift
+# Welcome to Mystery Gift
 This is a Secret Santa style generator.
 
-[WIP]
+### This project is currently in progress
 
+## How to use this site
 - Create a group for your friends and family.
 - Add names to your group and generate a link for everyone to visit.
 - Group members will be able to create a login for themselves.
